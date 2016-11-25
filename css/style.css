@@ -1,0 +1,113 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    margin: 0;
+}
+
+header{
+    background-color: #6e2794;
+    color:#fff;
+    max-height: 70px;
+    float:left;
+    width:100%;
+    border-bottom: #fff 2px solid;
+    position: relative;
+    }
+
+.container{
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+
+header div.logo{
+
+    display: inline;
+    float:left;
+    heigth:100%;
+
+}
+
+
+header div.logo h1{
+    display: inline;
+    font-size: 18px;
+    float:left;
+
+}
+header div.menu{
+    margin-top: 9px;
+    float:right;
+
+}
+
+
+header div.menu li:hover{
+    bottom:0;
+    border-bottom: 3px solid #fff ;
+    padding-bottom: 20px;
+}
+
+
+
+ul {
+    float:right;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+img#logo-icon{
+    height: 100%;
+    margin-top: 10px;
+    float:left;
+}
+
+div#logo-text{
+    display: inline;
+}
+
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.banner {
+
+    background: url("photo.jpg") no-repeat center;
+    background-size: contain;
+    height: 330px;
+
+}
+.banner .container {
+    position: relative;
+}
+
+div.motto{
+    position: absolute;
+    top:50%;
+}
+
+div.motto h1{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding:0;
+    margin: 0px auto;
+    width: 50%;
+    opacity: 0.9;
+
+}
+
+div.motto h2{
+    background-color: #f1f1f1;
+    color:#6e2794;
+    text-align: center;
+    padding:0;
+    margin: 0px auto;
+    width: 10%;
+    opacity: 0.9;
+}

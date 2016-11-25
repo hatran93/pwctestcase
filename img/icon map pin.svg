@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="48px" viewBox="0 0 35 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>icon map pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M481.321121,255.822696 C481.321121,255.822696 497.642242,242.609768 497.642242,227.260962 C497.642242,218.279819 490.334922,211 481.321121,211 C472.30732,211 465,218.279819 465,227.260962 C465,242.609768 481.321121,255.822696 481.321121,255.822696 L481.321121,255.822696 Z M488.000982,226.465644 C488.000982,222.789351 485.010783,219.809985 481.321121,219.809985 C477.631459,219.809985 474.64126,222.789351 474.64126,226.465644 C474.64126,230.141937 477.631459,233.121303 481.321121,233.121303 C485.010783,233.121303 488.000982,230.141937 488.000982,226.465644 L488.000982,226.465644 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="34.6422418" height="46.8226957">
+            <rect x="464" y="210" width="34.6422418" height="46.8226957" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Exports" transform="translate(-464.000000, -210.000000)">
+            <g id="icon-map-pin">
+                <use fill="#6E2795" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
