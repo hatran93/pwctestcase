@@ -4,23 +4,27 @@
                 <link rel="stylesheet" href="css/style.css">
                 <script rel="js/script.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+
+
+
             </head>
 
 
 <body>
 
     <header>
-        <div class="container">
-            <a href="#"> <div class="logo">
-               <img id="logo-icon" src="img/icon%20rich.svg" alt="company logo" />
-               <div id="logo-text"><h1>Company <br> finder</h1></div>
-            </div></a>
-            <div class="menu">
-                <ul>
-                    <a href="#"><li>responsibility</li></a>
-                    <a href="#"><li>about us</li></a>
-                </ul>
-            </div>
+                <div class="container">
+                    <a href="index.html"> <div class="logo">
+                        <img id="logo-icon" src="img/icon%20rich.svg" alt="company logo" />
+                        <div id="logo-text"><h1>Company <br> finder</h1></div>
+                    </div></a>
+                    <div class="menu">
+                        <ul>
+                            <a href="#"><li>responsibility</li></a>
+                            <a href="#"><li>about us</li></a>
+                        </ul>
+                    </div>
         </div>
     </header>
 
@@ -34,37 +38,50 @@
         </div>
     </div>
 
-    <div class="content">
-        <div>
+    <main>
+        <div class="container2">
+        <div class="left-form">
             <h1>Do you know CN?</h1>
-            <input type="text" placeholder="company no.">
+            <div><input type="text" placeholder="company no."><a href="#" ><img src="img/magnifier.svg" id="lupka" alt="small magnifier"></a><br /></div>
+            <img src="img/artwork.svg" alt="artwork building" style="max-width: 100%"/>
         </div>
 
-        <div>
+        <div class="right-form">
             <h1>Don't you?</h1>
             <form name="search-form">
                 <input type="text" name="company-no" placeholder="company no." /><br>
                 <input type="text" name="city" placeholder="city" /><br>
                 <input type="text" name="street" placeholder="street name"/><br>
-                <input type="text" name="company-type" placeholder="company-type"/><br>
-                <input type="submit" name="search" value="search"/>
+
+
+                <select name="company-type">
+                    <option value="" disabled selected>company type</option>
+                    <option value="small-company">Small company</option>
+                    <option value="medium-company">Medium company</option>
+                    <option value="large-company">Large company</option>
+
+                </select>
+
+                <div style="position: relative;"><img src="img/magnifier.svg" id="lupka-big" alt="small magnifier"><input type="submit" formaction="result.html" id="search" name="search" value="SEARCH"/></div>
             </form>
         </div>
+        </div>
+    </main>
 
-
-            <footer>
-                <div>
-                    <h1>Can we help you?</h1>
-                    <p><a href="mailto:fakeemail@fake.com" >casestudy@cz.pwc.com</a></p>
-                    <p>+420 777 987 654</p>
+        <footer>
+                <div class="container">
+                    <div class="contact">
+                        <h1>Can we help you?</h1>
+                        <p><a href="mailto:casestudy@cz.pwc.com" >casestudy@cz.pwc.com</a></p>
+                        <p>+420 777 987 654</p>
+                    </div>
+                    <div style="text-align: center"><img src="img/icon%20rich2.svg"></div>
+                    <div class="case-study">
+                        <p>Case study for PwC</p>
+                    </div>
                 </div>
-                <div>
-                    <p>Case study for PwC</p>
-                </div>
-
         </footer>
 
-    </div>
 
 
   </body>

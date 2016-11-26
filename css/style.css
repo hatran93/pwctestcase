@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     width:100%;
     margin: 0;
+    padding:0;
+    color: #bebebe;
+
 }
 
 header{
@@ -11,34 +14,49 @@ header{
     float:left;
     width:100%;
     border-bottom: #fff 2px solid;
-    position: relative;
+
     }
+
+
 
 .container{
     max-width: 890px;
     margin: 0 auto;
+    overflow:auto;
+}
+
+.container:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.container2{
+    max-width: 800px;
+    margin: 0 auto;
+    overflow:hidden;
 }
 
 
-header div.logo{
 
-    display: inline;
+
+
+header div.logo{
     float:left;
-    heigth:100%;
 
 }
 
 
 header div.logo h1{
-    display: inline;
     font-size: 18px;
     float:left;
-
 }
 header div.menu{
     margin-top: 9px;
     float:right;
-
 }
 
 
@@ -61,13 +79,13 @@ li {
 }
 
 img#logo-icon{
-    height: 100%;
+    height: 70px;
     margin-top: 10px;
     float:left;
 }
 
 div#logo-text{
-    display: inline;
+    float: left;
 }
 
 
@@ -77,28 +95,32 @@ a {
 }
 
 .banner {
-
     background: url("photo.jpg") no-repeat center;
     background-size: contain;
     height: 330px;
+    clear: both;
 
 }
 .banner .container {
+    height: 100%;
     position: relative;
 }
 
 div.motto{
     position: absolute;
-    top:50%;
+    top:40%;
+    width: 100%;
+
 }
 
 div.motto h1{
     background-color: #f1f1f1;
     text-align: center;
     padding:0;
-    margin: 0px auto;
+    margin: 10px auto;
     width: 50%;
     opacity: 0.9;
+    color:#8d8e8e;
 
 }
 
@@ -109,5 +131,121 @@ div.motto h2{
     padding:0;
     margin: 0px auto;
     width: 10%;
+    opacity: 0.9;
+    font-size: 2em;
+}
+
+main {
+    background-color: #f1f1f1;
+    margin: 0;
+
+}
+
+.left-form{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+
+.right-form{
+    float:right;
+    width:50%;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+}
+
+#lupka {
+    background-color: #6e2794;
+    padding: 5px;
+    height: 21px;
+    border-radius: 0 5px 5px 0;
+    vertical-align: middle;
+    margin-left: -32px;
+}
+
+input, select {
+    border-radius: 5px;
+    border: 2px solid #e4e4e4;
+    height: 2.5em;
+    width: 60%;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    color: #6b6b6b;
+}
+
+input#search{
+    cursor: hand;
+    color: #f1f1f1;
+    background-color: #6e2794;
+    width: 40%;
+    border:none;
+}
+
+#lupka-big {
+    background-color: #6e2794;
+    padding: 5px;
+    height: 20px;
+    border-radius: 0 5px 5px 0;
+    vertical-align: middle;
+    z-index: 100;
+    position: absolute;
+    left: 136px;
+    cursor: hand;
+}
+
+footer{
+    background: #acacac;
+    color: #f1f1f1;
+    position: relative;
+    min-height: 150px;
+    bottom:0;
+
+}
+footer div{
+    width:33.3%;
+    display: inline;
+    float: left;
+
+}
+
+footer a {
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: none;
+}
+
+footer .container{
+    position: absolute;
+    width: 100%;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.case-study p{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+footer img {
+    //border: #6b6b6b 3px solid;
+}
+
+
+
+/*
+*********************
+CSS for page result.html
+*********************
+*/
+
+.breadcrumbs{
+    background: #e7e7e7;
+    color:#6b6b6b;
     opacity: 0.9;
 }
