@@ -22,7 +22,7 @@ header{
 .container{
     max-width: 890px;
     margin: 0 auto;
-    overflow:auto;
+    //overflow:auto;
 }
 
 .container:after {
