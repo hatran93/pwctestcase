@@ -12,6 +12,16 @@ Small screens PCs and tablets
         padding-left: 15px;
     }
 
+    div.motto h1{
+        width: 65%;
+    }
+    div.motto h2{
+        width: 15%;
+    }
+
+    .case-study p {
+        right:25px;
+    }
 }
 
 
@@ -173,6 +183,46 @@ Responsive elements for result.html
         padding: 15px;
     }
 
+
+    .info-window{
+        top:0;
+        left:0;
+        padding: 0 15px;
+        opacity: 1;
+        position: relative;
+        width: auto;
+        max-width: 100%;
+    }
+
+    #map{
+        position: relative;
+    }
+
+
+    p#date:before{
+        content: "Establish date: ";
+
+    }
+
+    .info-content-left{
+        width: 100%;
+    }
+
+    .info-content-right{
+        display: none;
+    }
+
+    button#more-details{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding:10px;
+        background: #6e2794;
+        color: #f1f1f1;
+        border:none;
+        border-radius: 5px;
+        cursor: hand;
+    }
 
 
 }

@@ -127,6 +127,7 @@ div.motto h1{
     width: 50%;
     opacity: 0.9;
     color:#8d8e8e;
+    white-space: nowrap;
 }
 
 div.motto h2{
@@ -241,6 +242,10 @@ footer img {
     //border: #6b6b6b 3px solid;
 }
 
+footer div.contact h1{
+    white-space:nowrap;
+}
+
 
 
 /*
@@ -304,6 +309,10 @@ p#date{
     width:50%;
 }
 
+#map img {
+    max-width: 100%;
+}
+
 #map-pin{
     position: absolute;
     top:70%;
@@ -311,5 +320,9 @@ p#date{
 }
 
 #menu-burger{
+    display: none;
+}
+
+button#more-details{
     display: none;
 }
