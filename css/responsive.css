@@ -1,0 +1,195 @@
+/*
+*********
+Small screens PCs and tablets
+*********
+*/
+@media (max-width:960px) {
+    .menu {
+        padding-right:30px;
+    }
+
+    header img{
+        padding-left: 15px;
+    }
+
+}
+
+
+/*
+****************
+Mobile version
+****************
+*/
+@media(max-width: 650px){
+    .menu ul{
+        display: none;
+    }
+
+    #menu-burger{
+        display: inherit;
+        float: right;
+        height: 50px;
+        cursor: hand;
+        margin-top: 10px;
+        margin-right: 15px;
+
+    }
+
+    .motto h2{
+        display: none;
+    }
+
+
+    div .motto h1{
+        white-space: nowrap;
+        font-size: 6vw;
+        width: 80%;
+    }
+
+    .banner .container {
+        height: 150px;
+    }
+
+    .container2{
+        padding: 15px;
+        background: url("artwork.svg") bottom no-repeat;
+        background-size: 80%;
+        padding-bottom: 120px;
+    }
+    
+    .left-form, .right-form{
+        clear: both;
+        width :100%;
+        text-align: left;
+    }
+
+    .left-form h1 {
+        margin-top: 0;
+    }
+
+    .left-form img#artwork {
+        display: none;
+    }
+
+    input, select {
+        width: 100%;
+    }
+    select {
+        margin-bottom: 20px;
+    }
+
+    footer .container {
+        position: relative;
+    }
+
+    footer div.contact {
+        width: 50%;
+        padding-left: 15px;
+    }
+
+    footer div.contact h1{
+        white-space: nowrap;
+        font-size: 28px;
+    }
+
+    input#search {
+        width:100%;
+    }
+    #lupka-big{
+        left:29%;
+    }
+
+    footer div:nth-child(2){
+        float:right;
+    }
+    footer div:nth-child(2) img{
+        width: 80%;
+        float: right;
+    }
+
+    footer .container{
+        background: #acacac;
+    }
+
+    .case-study p{
+        position: relative;
+        margin: 10px;
+    }
+
+    .case-study {
+        clear: both;
+        width:100%;
+        text-align: center;
+        background: #838383;
+    }
+
+
+    /*
+    ****menu after clicking the burger icon*****
+    */
+    header div.menu{
+        position: absolute;
+        top: 61px;
+        z-index: 100;
+        background: #6e2794;
+        width: 100%;
+        opacity: 0.9;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    header div.menu ul {
+        width: 100%;
+    }
+
+    header div.menu li {
+        display: block;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+        height: 100%;
+
+    }
+
+    header div.menu li:hover {
+        border:none;
+        margin: 0;
+        height: 100%;
+        padding-bottom: 15px;
+        background: #853eab;
+
+    }
+
+
+/*
+**************
+Responsive elements for result.html
+**************
+*/
+
+    .breadcrumbs {
+        padding: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/*
+******
+Very small devices under 320px
+******
+*/
+@media(max-width: 320px){
+    #lupka-big{
+        left:15%;
+    }
+}
