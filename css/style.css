@@ -23,6 +23,7 @@ header{
     max-width: 890px;
     margin: 0 auto;
     //overflow:auto;
+
 }
 
 .container:after {
@@ -138,7 +139,7 @@ div.motto h2{
 main {
     background-color: #f1f1f1;
     margin: 0;
-
+    clear: both;
 }
 
 .left-form{
@@ -248,4 +249,53 @@ CSS for page result.html
     background: #e7e7e7;
     color:#6b6b6b;
     opacity: 0.9;
+}
+
+.info{
+    position: relative;
+}
+
+.info-window{
+    position: absolute;
+    top:50px;
+    right:50px;
+    color: #6b6b6b;
+    width:60%;
+}
+
+.info-header, .info-content{
+    background: #f1f1f1;
+    opacity: 0.9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.info-header h1{
+    color: #6e2794;
+    font-size: 24px;
+    margin: 0;
+}
+
+.info-header p {
+    display: inline;
+}
+
+p#date{
+    margin: 0;
+    float: right;
+}
+
+.info-content h2{
+    color: #6e2794;
+    font-size: 16px;
+    margin: 0;
+}
+
+.info-content p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.info-content-left{
+    float:left;
+    width:50%;
 }
