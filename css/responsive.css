@@ -163,7 +163,7 @@ Mobile version
 
     }
 
-    header div.menu li:hover {
+    header div.menu li:hover, li.current {
         border:none;
         margin: 0;
         height: 100%;
@@ -181,6 +181,10 @@ Responsive elements for result.html
 
     .breadcrumbs {
         padding: 15px;
+    }
+
+    .breadcrumbs span::after {
+        content: " > details";
     }
 
 
@@ -201,7 +205,26 @@ Responsive elements for result.html
 
     p#date:before{
         content: "Establish date: ";
+        color: #6e2794;
+        font-size: 16px;
+        font-weight: bold;
 
+    }
+
+    .info-header{
+        border-bottom: #6b6b6b 2px solid;
+        overflow: auto;
+          }
+    .info-header p {
+        display: block;
+
+    }
+    p#date{
+        float:left;
+    }
+
+    .info-content{
+        background: #f9f9f9;
     }
 
     .info-content-left{
@@ -224,6 +247,15 @@ Responsive elements for result.html
         cursor: hand;
     }
 
+    /*
+    **************
+    Responsive elements for about-us.html
+    **************
+    */
+
+    main div.about{
+        padding:15px;
+    }
 
 }
 

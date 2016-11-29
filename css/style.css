@@ -62,9 +62,15 @@ header div.menu{
 
 
 header div.menu li:hover{
-
     border-bottom: 3px solid #fff ;
     padding-bottom: 20px;
+}
+
+li.current{
+    border-bottom: 3px solid #fff ;
+    padding-bottom: 20px;
+    opacity: 0.8;
+
 }
 
 header div.menu li:active {
