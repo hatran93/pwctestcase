@@ -39,16 +39,13 @@ header{
     max-width: 800px;
     margin: 0 auto;
     overflow:hidden;
+    background: #f1f1f1;
 }
 
 
 
 
 
-header div.logo{
-    float:left;
-
-}
 
 
 header div.logo h1{
@@ -264,6 +261,7 @@ CSS for page result.html
     background: #e7e7e7;
     color:#6b6b6b;
     opacity: 0.9;
+    clear: both;
 }
 
 .info{
